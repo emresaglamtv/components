@@ -1,11 +1,12 @@
 import './App.css';
+import User from './components/User';
 
 const name = "Mehmet";
 
 function App(){
   return(
     <>
-      <h1>{name}</h1>
+      <User name = "Emre" isLoggedIn = {false} />
     </>
   );
 }
