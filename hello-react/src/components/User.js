@@ -8,7 +8,7 @@ function User({ name, age, isLoggedIn, friends }) {
             {friends.map((friend) => (
                 <div key={friend.id}> {friend.name}
                 </div>
-            ))};
+            ))}
         </>
     );
 }
